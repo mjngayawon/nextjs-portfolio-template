@@ -31,7 +31,7 @@ const Hero = () => {
             "dark:[background-image:linear-gradient(to_right,#ffffff08_2px,transparent_2px),linear-gradient(to_bottom,#ffffff08_2px,transparent_2px)]"
           )}
         />
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100" />
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black_50%)] dark:bg-black-100" />
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
@@ -42,7 +42,7 @@ const Hero = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless Experiences"
+            words="Transforming Concepts into Seamless User Experiences"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
